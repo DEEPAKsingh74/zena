@@ -1,6 +1,6 @@
 # Zena CLI - AI-Powered Command Line Assistant
 
-![Zena CLI Logo](https://github) *(placeholder for actual logo)*
+![Zena CLI Logo](https://raw.githubusercontent.com/DEEPAKsingh74/zena/refs/heads/main/assets/zena_logo.jpg)
 
 Zena is an intelligent command-line assistant that uses AI models (OpenAI, Anthropic, Gemini) to help you generate, understand, and run commands directly from your terminal.
 
