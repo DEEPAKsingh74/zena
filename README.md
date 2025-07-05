@@ -19,7 +19,12 @@ Zena is an intelligent command-line assistant that uses AI models (OpenAI, Anthr
 
 1. **Download the binary**:
    ```bash
-   curl -L https://github.com/DEEPAKsingh74/zena/releases/tag/v0.1.0/zena -o zena
+   wget https://github.com/DEEPAKsingh74/zena/releases/download/v0.1.0/zena-linux.tar.gz
+   ```
+
+2. **Extract it**:
+   ```bash
+   tar -xvzf zena-linux.tar.gz
    ```
 
 2. **Make it executable**:
