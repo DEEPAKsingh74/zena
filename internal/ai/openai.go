@@ -47,8 +47,6 @@ func FetchResponseOpenAI(query string, apiKey string) ([]*AIResponse, error) {
 		return nil, err
 	}
 
-	fmt.Println("🔍 Sending request to OpenAI...", string(body));
-	// Create the HTTP request
 
 	req, err := http.NewRequest("POST", openAIURL, bytes.NewBuffer(body))
 	if err != nil {

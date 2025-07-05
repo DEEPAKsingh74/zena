@@ -71,6 +71,5 @@ func Execute() {
 
 // init is used for command setup and global flags
 func init() {
-	// You can define persistent or local flags here in the future
 	rootCmd.CompletionOptions.DisableDefaultCmd = true
 }
