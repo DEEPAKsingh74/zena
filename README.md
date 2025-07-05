@@ -19,7 +19,7 @@ Zena is an intelligent command-line assistant that uses AI models (OpenAI, Anthr
 
 1. **Download the binary**:
    ```bash
-   curl -L https://github.com/DEEPAKsingh74/zena/releases/download/v1.0.0/zena-linux-amd64 -o zena
+   curl -L https://github.com/DEEPAKsingh74/zena/releases/tag/v0.1.0/zena -o zena
    ```
 
 2. **Make it executable**:
@@ -40,15 +40,13 @@ Zena is an intelligent command-line assistant that uses AI models (OpenAI, Anthr
 ### Windows Installation
 
 1. **Download the binary**:
-   - Visit the [releases page](https://github.com/DEEPAKsingh74/zena/releases) and download `zena-windows-amd64.exe`
+   - Visit the [releases page](https://github.com/DEEPAKsingh74/zena/releases) and download `zena-windows.zip`
 
-2. **Rename the file**:
-   ```powershell
-   ren zena-windows-amd64.exe zena.exe
-   ```
+2. **Extract the zip file**:
 
-3. **Add to your PATH**:
-   - Move `zena.exe` to a directory in your PATH or add its location to your PATH environment variable
+
+3. **Run the automation**:
+   - right click on install-zena.ps1 and select run on powershell, or simple double click on it to run it.
 
 4. **Verify installation**:
    ```powershell
